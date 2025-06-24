@@ -10,29 +10,13 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: 'Poppins', sans-serif;
-    cursor: none;
+
     --rush: #f0008c;
 }
 
-.cursor {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 18px;
-    height: 18px;
-    background-color:#f0008c4d;
-    border: 1.5px solid rgb(146, 16, 16);
-    border-radius: 50%;
-    pointer-events: none;
-    z-index: 999;
-    mix-blend-mode: difference;
-  }
 
-  a:hover, a:focus, button:hover {
-    cursor: none;
    
-    }
-  
+    
 
 /* NAVBAR */
 
@@ -146,12 +130,30 @@ nav {
 .ah-vinile{
     
     position: absolute;
-    left: 65%;
-    top: 60%;
+    left: 70%;
+    top: 75%;
     opacity: 90%;
     transform: translate(-50%, -50%);
     color: #030704;
     margin: 0;  
+}
+
+.ah-vinilebg{
+    
+    position: absolute;
+    left: 63%;
+    top: 60%;
+    opacity: 0%;
+    transform: translate(-50%, -50%);
+    color: #030704;
+    margin: 0;  
+}
+
+.ah-vinile:hover{
+ 
+    filter: brightness(1.5);
+    transition: filter 0.3s ease-in-out;
+
 }
 
 .ah-subtitle{
