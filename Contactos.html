@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="assets/css/icon.css" />
+  <link rel="icon" type="image/png" href="public/album-logo.png" />
+  <title>Contacto - Måneskin</title>
+</head>
+
+<body>
+
+  <nav>
+    <div class="nav-logo">
+      <h3 class="nav-title">Måneskin</h3>
+    </div>
+
+    <div class="nav-list" id="nav-list">
+      <div class="nl-seccion"><span class="album-icon"></span><a href="index.html#home">Inicio</a></div>
+      <div class="nl-seccion"><span class="album-icon"></span><a href="index.html#album">Álbum</a></div>
+      <div class="nl-seccion"><span class="album-icon"></span><a href="index.html#maneskin">Maneskin</a></div>
+      <div class="nl-seccion"><span class="album-icon"></span><a href="ventas.html">Ventas</a></div>
+      <div class="nl-seccion"><span class="album-icon"></span><a href="contactos.html">Contactos</a></div>
+    </div>
+
+    <div class="nav-logo" style="opacity: 0;">
+      <h1 class="nav-title">Maneskin</h1>
+    </div>
+  </nav>
+
+  
+  <section class="merchandising-container" style="margin-top: 120px;">
+    <article class="contact-info" style="width: 100%;">
+      <h2 class="ci-title">Contacto</h2>
+      <p class="ci-description">¿Querés hacernos una pregunta, dejarnos un mensaje o realizar una compra? ¡Completá el siguiente formulario!</p>
+      
+      <form action="enviado.html" method="GET" style="display: flex; flex-direction: column; gap: 20px; max-width: 500px; margin: 0 auto;">
+        <input type="text" name="nombre" placeholder="Tu nombre" required style="padding: 10px; font-size: 16px; border-radius: 5px; border: none;">
+        <input type="text" name="apellido" placeholder="Tu apellido" required style="padding: 10px; font-size: 16px; border-radius: 5px; border: none;">
+        <input type="email" name="email" placeholder="Tu correo electrónico" required style="padding: 10px; font-size: 16px; border-radius: 5px; border: none;">
+        <textarea name="mensaje" rows="5" placeholder="Tu mensaje" required style="padding: 10px; font-size: 16px; border-radius: 5px; border: none;"></textarea>
+        <button class="ai-btn" type="submit">Enviar Mensaje</button>
+      </form>
+    </article>
+  </section>
+
+  
+  <footer>
+    <div class="footer-container">
+      <div class="footer-info">
+        <p>&copy; 2023 Maneskin. Todos los derechos reservados.</p>
+        <p>Desarrollado por Marcos Varela</p>
+      </div>
+      <div class="footer-socials">
+        <a href="#"><span class="twitter-icon"></span></a>
+        <a href="#"><span class="instagram-icon"></span></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

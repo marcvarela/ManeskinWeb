@@ -1,4 +1,3 @@
-/* GLOBALES */
 
 
 html {
@@ -11,7 +10,7 @@ body {
     padding: 0px;
     font-family: 'Poppins', sans-serif;
 
-    --rush: #f0008c;
+
 }
 
 
@@ -498,4 +497,69 @@ nav {
     gap: 20px;
 }
 
+/* unificacion css */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+  font-family: 'Arial Black', sans-serif;
+}
+
+.ventas-section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.ventas-titulo {
+  font-size: 2.5rem;
+  color: #ff008c;
+  margin-bottom: 30px;
+}
+
+
+
+.ventas-titulo span {
+  display: block;
+  font-size: 1.8rem;
+  color: #fff;
+  text-shadow: 2px 2px #ff008c;
+}
+
+.ventas-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.producto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.vinilo-img {
+  width: 300px;
+  max-width: 100%;
+  border: 5px solid #ff008c;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.info-compra {
+  max-width: 400px;
+  margin: 10px;
+  text-align: left;
+}
+
+.descripcion {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.precio {
+  font-size: 1.8rem;
+  color: #ff008c;
+  margin-bottom: 20px;
+}
 
