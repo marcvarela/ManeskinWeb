@@ -113,6 +113,17 @@ nav {
     text-transform: uppercase;
 }
 
+@keyframes flotar {
+  0% {
+    transform: translate(-50%, -50%) translateY(0);
+  }
+  50% {
+    transform: translate(-50%, -50%) translateY(-10px);
+  }
+  100% {
+    transform: translate(-50%, -50%) translateY(0);
+  }
+}
 .ah-vinile{
     
     position: absolute;
@@ -122,6 +133,7 @@ nav {
     transform: translate(-50%, -50%);
     color: #030704;
     margin: 0;  
+    animation: flotar 3s ease-in-out infinite;
 }
 
 .ah-vinilebg{
@@ -142,19 +154,21 @@ nav {
 
 }
 
-.ah-subtitle{
+.ah-subtitle {
     position: absolute;
     top: 20px;
     right: 20px;
     color: #030704;
-    font-size: 90px;
+    font-size: 120px; 
     font-weight: bold;
     margin: 0;
     text-align: center;
     text-transform: uppercase;
     writing-mode: vertical-rl;
+    font-family: 'Playfair Display', serif;
+    line-height: 0.85; 
+    letter-spacing: -2px; 
 }
-
 
 /* ALBUM */
 
@@ -180,6 +194,15 @@ nav {
     align-items: center;
     gap: 20px;
 }
+@keyframes disco {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    
+}
 
 .ah-disco {
     position: relative;
@@ -192,6 +215,7 @@ nav {
     border-radius: 50%;
     border: 5px solid #030704;
     outline: 3px solid white;
+    animation: disco 5s linear infinite;
 }
 
 .ah-center {
@@ -311,7 +335,7 @@ nav {
     padding: 10px 20px;
     color: white;
     border-bottom: 1px solid rgba(234,2,138,255);
-    gap: 90px;
+    gap: 40px;
     white-space: nowrap;
 }
 
@@ -562,4 +586,8 @@ body {
     max-width: 500px;
     box-shadow: 0 8px 32px rgba(240,0,140,0.15);
     padding: 40px 30px;
+}
+.audio-preview {
+  width: 150px;
+  height: 30px; 
 }
