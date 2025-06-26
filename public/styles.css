@@ -100,7 +100,7 @@ nav {
 
 .album-header {
     position: relative;
-    background-image: url("../public/ethan.jpg");
+    background-image: url("public/ethan.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
