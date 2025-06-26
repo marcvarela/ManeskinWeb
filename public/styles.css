@@ -383,7 +383,7 @@ nav {
 }
 
 .ms-member1 {
-    background-image: url("../../public/ethan.jpg");
+    background-image: url("./assets/ethan.jpg");
     background-size: cover;
     background-position: start;
     background-repeat: no-repeat;
@@ -391,7 +391,7 @@ nav {
 }
 
 .ms-member2 {
-    background-image: url("../../public/thomas.jpg");
+    background-image: url("./assets/thomas.jpg");
     background-size: cover;
     background-position: start;
     background-repeat: no-repeat;
@@ -399,7 +399,7 @@ nav {
 }
 
 .ms-member3 {
-    background-image: url("../../public/damiano.jpg");
+    background-image: url("./assets/damiano.jpg");
     background-size: cover;
     background-position: start;
     background-repeat: no-repeat;
@@ -407,7 +407,7 @@ nav {
 }
 
 .ms-member4 {
-    background-image: url("../../public/vic.jpg");
+    background-image: url("./assets/vic.jpg");
     background-size: cover;
     background-position: start;
     background-repeat: no-repeat;
