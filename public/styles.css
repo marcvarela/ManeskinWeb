@@ -549,4 +549,17 @@ body {
   color: #ff008c;
   margin-bottom: 20px;
 }
-
+.error-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    border: 3px solid #f0008c;
+    border-radius: 16px;
+    background: rgba(24, 26, 27, 0.95);
+    margin: 40px auto;
+    max-width: 500px;
+    box-shadow: 0 8px 32px rgba(240,0,140,0.15);
+    padding: 40px 30px;
+}
